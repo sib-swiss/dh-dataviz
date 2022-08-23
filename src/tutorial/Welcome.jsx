@@ -58,7 +58,6 @@ const Welcome = props => {
         </div>
 
         <div class="p6o-welcome-logos">
-          <img src="../../../logos/bho.png"/>
           <img src="../../../logos/Pelagios.png"/>
           <img src="../../../logos/SNSF.png"/>
           <img src="../../../logos/SIBlogo.png"/>
