@@ -74,7 +74,8 @@ const ItemCard = props => {
 
   const goTo = () => props.onGoTo({
     referrer: props,
-    nodeList: connected
+    nodeList: connected,
+    mssList: connectedManuscripts
   });
   
   const tagNav = () => 

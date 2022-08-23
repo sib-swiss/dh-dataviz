@@ -195,10 +195,16 @@ const LinkGroup = props => {
 
 }
 
+const ManuscriptLink = (node) => {
+  const href = node.id
+  console.log(href)
+  return {href}
+}
+
 const ItemListCard = props => {
 
   const { referrer } = props;
-
+  console.log(props.mssList)
   const config = props.nodeList[0].config;
 
   // Temporary hack!
@@ -221,7 +227,7 @@ const ItemListCard = props => {
         }
 
         {referrer && 
-          <h1>Related to: {referrer.node.title}</h1>
+          <h1>{referrer.node.title}</h1>
         }
         
         <button
@@ -230,40 +236,19 @@ const ItemListCard = props => {
           <IoCloseSharp />
         </button>
       </header>
-      {config.link_icons ?
-        <ul className="p6o-link-groups-container">
-          {grouped.map(([label, nodes]) => 
-            <LinkGroup 
-              key={label} 
-              open={grouped.length == 1}
-              label={label} 
-              nodes={nodes} 
-              onGoTo={props.onGoTo} />
-          )}
-        </ul>
-       
-        :
-
-        <ul>
-          {props.nodeList.map(selection => selection.node.properties ?
-            <li 
-              key={selection.node.identifier}
-              className="p6o-link-internal p6o-link">
-                <InternalLink 
-                  {...selection } 
-                  onSelect={node => props.onGoTo(node)} /> 
-            </li> :
-
-            <li
-              key={selection.node.identifier}
-              className="p6o-link-external p6o-link">
-              <ExternalLink  {...selection } />
-            </li>
-          )}
-        </ul>
-      }
+      <ul class="p6o-links-group-container">
+        {props.mssList.map(manuscript => (
+          <li className="p6o-link p6o-link-external"
+          >
+            <div class="p6o-external-link-meta">
+              <a class="p6o-external-link-host" href={manuscript.id} target="_blank">{manuscript.title}</a>
+              <a class="p6o-external-link-label">({manuscript.content})</a>
+            </div>
+          </li>
+        ))}
+      </ul>
       <footer aria-live={true}>
-        <AiOutlineInfoCircle />Links open a new tab
+        <AiOutlineInfoCircle />Links open a new tab to MARK16 Manuscript Room
       </footer>
     </div>
   )
