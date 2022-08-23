@@ -22,15 +22,14 @@ const Welcome = props => {
       <div className="p6o-welcome">
         <h1>Welcome!</h1>
 
-        <p>
-          Welcome to the <strong>DataViz</strong> of the 
-          <a href="https://mark16.sib.swiss/">NSF MARK16 VRE</a>!
+        <p class="p6o-welcome-intro">
+          Welcome to the <strong>DataViz</strong> of the <a href="https://mark16.sib.swiss/">NSF MARK16 VRE</a>!
         </p>
         <p>
           You will find here a digital map that locates all the
           manuscript data of <a href="https://mr-mark16.sib.swiss/">MARK16 Manuscript Room</a>.
-          It has been created by Elisa Nury and the MARK16 team in partnership with the <a href="https://pelagios.org/">Pelagios network</a>, and uses
-          <a href="https://www.openstreetmap.org/">Open Street Map</a>.
+          It has been created by Elisa Nury and the MARK16 team in partnership with the <a href="https://pelagios.org/">Pelagios network</a>, and 
+          uses <a href="https://www.openstreetmap.org/">Open Street Map</a>.
         </p>
         
         <div className="p6o-welcome-buttons">
@@ -59,6 +58,7 @@ const Welcome = props => {
         </div>
 
         <div class="p6o-welcome-logos">
+          <img src="../../../logos/bho.png"/>
           <img src="../../../logos/Pelagios.png"/>
           <img src="../../../logos/SNSF.png"/>
           <img src="../../../logos/SIBlogo.png"/>
