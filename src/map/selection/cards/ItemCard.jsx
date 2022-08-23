@@ -67,6 +67,11 @@ const ItemCard = props => {
     ...externalLinks
   ];
 
+  // get connected manuscripts
+  const connectedManuscripts = [
+    ...node.relations
+  ]
+
   const goTo = () => props.onGoTo({
     referrer: props,
     nodeList: connected
@@ -133,30 +138,19 @@ const ItemCard = props => {
 
             <div
               className="p6o-source-link"
-              onClick={() => window.open(sourceUrl, '_blank')}>
+              onClick={() => window.open(sourceUrl, '_blank')}
+              >
               <h1>
-                <a 
-                  href={sourceUrl} 
-                  target="_blank"
-                  onClick={tagNav}>
                   {node.title}
-                </a>
               </h1>
 
               <h2>
                 <a 
-                  href={sourceUrl} 
-                  target="_blank"
-                  onClick={tagNav}>
-                  View page on {node.dataset}<RiExternalLinkLine />
+                  aria-disabled="true">
+                  View official page<RiExternalLinkLine />
                 </a>
               </h2>
               
-              <a 
-                href={sourceUrl}
-                className="p6o-new-tab-hint"
-                onClick={tagNav}
-                target="_blank">Link opens a new tab</a>
             </div>
 
             <p className="p6o-node-types">
@@ -185,17 +179,17 @@ const ItemCard = props => {
         </main>
 
         <footer aria-live={true}>
-          {connected.length > 0 ?
+          {connectedManuscripts.length > 0 ?
             <div
               className="p6o-selection-related-records">
               <button onClick={goTo} >
-                <BiLink /> <span>{connected.length} Related Web Resources</span>
+                <BiLink /> <span>{connectedManuscripts.length} {connectedManuscripts.length > 1 ? "Manuscripts" : "Manuscript"}</span>
               </button>
             </div> :
 
             <div
               className="p6o-selection-related-records disabled">
-              <BiLink /> <span>No Related Web Resources</span>
+              <BiLink /> <span>No Manuscript</span>
             </div>
           }
         </footer>
