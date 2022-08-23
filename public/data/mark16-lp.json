@@ -412,7 +412,7 @@
             "relations": [
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
-                    "label": "physical and virtual",
+                    "label": "physical",
                     "relationTo": "https://doi.org/11280/d49ec78a",
                     "@id": "http://mr-mark16.sib.swiss/show?id=Vkwx",
                     "title": "VL 1",
@@ -1909,6 +1909,26 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
+                    "relationTo": "https://doi.org/11280/d49ec78a",
+                    "@id": "http://mr-mark16.sib.swiss/show?id=Vkwx",
+                    "title": "VL 1",
+                    "content": "f.40r, f.40v and f.41r",
+                    "lang": "Latin",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {
+                                    "earliest": "380",
+                                    "latest": "420"
+                                }
+                            }
+                        ],
+                        "label": "380-420 CE"
+                    }
+                },
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "virtual",
                     "relationTo": "https://doi.org/11280/e55e51a5",
                     "@id": "http://mr-mark16.sib.swiss/show?id=R0EyOTM3",
                     "content": "f.94v and f.95r",
@@ -2431,7 +2451,7 @@
             "relations": [
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
-                    "label": "virtual",
+                    "label": "physical and virtual",
                     "relationTo": "https://doi.org/10.34847/nkl.0a12ue14",
                     "@id": "http://mr-mark16.sib.swiss/show?id=VkwxNg==",
                     "content": "p.87, p.88 and p.91",
