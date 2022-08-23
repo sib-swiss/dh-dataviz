@@ -23,11 +23,6 @@ const tour = [{
   content: 'You can filter the data on the map by clicking the labels.',
   disableBeacon: true
 },{
-  target: '.p6o-map-modes',
-  title: 'Map Modes',
-  content: 'You can show data in different ways by changing the map mode here.',
-  disableBeacon: true
-},{
   target: 'body',
   placement: 'center',
   title: 'That\'s it!',
