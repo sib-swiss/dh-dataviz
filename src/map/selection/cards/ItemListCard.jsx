@@ -204,7 +204,7 @@ const ManuscriptLink = (node) => {
 const ItemListCard = props => {
 
   const { referrer } = props;
-  console.log(props.mssList)
+  console.log(props.mssList[0].relationTo);
   const config = props.nodeList[0].config;
 
   // Temporary hack!
@@ -240,9 +240,11 @@ const ItemListCard = props => {
         {props.mssList.map(manuscript => (
           <li className="p6o-link p6o-link-external"
           >
-            <div class="p6o-external-link-meta">
-              <a class="p6o-external-link-host" href={manuscript.id} target="_blank">{manuscript.title}</a>
-              <a class="p6o-external-link-label">({manuscript.content})</a>
+            <div className="p6o-external-link-meta">
+              <a className="p6o-external-link-host" href={manuscript.relatedTo} target="_blank">{manuscript.title}</a>
+              {manuscript.content &&
+                <a className="p6o-external-link-label">({manuscript.content})</a>
+              }
             </div>
           </li>
         ))}
