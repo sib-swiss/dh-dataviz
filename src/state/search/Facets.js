@@ -10,7 +10,7 @@ export class Facet {
 
 const toSortedArray = counts => {
   const entries = Object.entries(counts);
-  entries.sort((a, b) => b[1] - a[1]);
+  entries.sort((a, b) => a[0].localeCompare(b[0]));
   return entries;
 }
 
