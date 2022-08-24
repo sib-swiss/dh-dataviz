@@ -239,11 +239,26 @@ const ItemListCard = props => {
       <ul class="p6o-links-group-container">
         {props.mssList.map(manuscript => (
           <li className="p6o-link p6o-link-external"
+          key={manuscript.relationTo}
           >
             <div className="p6o-external-link-meta">
-              <a className="p6o-external-link-host" href={manuscript.relatedTo} target="_blank">{manuscript.title}</a>
+              <a 
+                className="p6o-external-link-host"
+                onClick={() => window.open(manuscript.relationTo, '_blank')}
+                href={manuscript.relationTo} 
+                target="_blank"
+                title={manuscript.relationTo}>
+                  {manuscript.title}
+              </a>
               {manuscript.content &&
-                <a className="p6o-external-link-label">({manuscript.content})</a>
+                <a 
+                  className="p6o-external-link-label"
+                  onClick={() => window.open(manuscript.relationTo, '_blank')}
+                  href={manuscript.relationTo} 
+                  target="_blank"
+                  title={manuscript.relationTo}>
+                    {manuscript.content}
+                </a>
               }
             </div>
           </li>
