@@ -50,7 +50,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/st-catherine-small.png",
+                    "@id": "./data/logos/partners/sinai.png",
                     "title": "St Catherine Monastery"
                 }
             ],
@@ -322,7 +322,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-bm-marziana.png",
+                    "@id": "./data/logos/partners/BMVenise.png",
                     "title": "Biblioteca Nazionale Marziana"
                 }
             ],
@@ -488,7 +488,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/BNF.svg",
+                    "@id": "./data/logos/partners/BNF.png",
                     "title": "BnF"
                 }
             ],
@@ -779,7 +779,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/British-Library-logo-19-20.jpg",
+                    "@id": "./data/logos/partners/BritishLibrary.jpg",
                     "title": "British Library"
                 }
             ],
@@ -1006,7 +1006,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-chaldean.png",
+                    "@id": "./data/logos/partners/RabbanHormizd.png",
                     "title": "Chaldean Antonian Order Library"
                 },
                 {
@@ -1266,7 +1266,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/smithsonian.png",
+                    "@id": "./data/logos/partners/freer-Washingtonsmithonian.png",
                     "title": "Freer Gallery of Art - Smithsonian institution"
                 }
             ],
@@ -1334,7 +1334,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-ecodices.png",
+                    "@id": "./data/logos/partners/ecodices.png",
                     "title": "e-codices"
                 }
             ],
@@ -1647,7 +1647,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-dom.png",
+                    "@id": "./data/logos/partners/SpeyerDom.png",
                     "title": "Speyer Dom"
                 }
             ],
@@ -1726,7 +1726,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/pfalz-lg.jpg",
+                    "@id": "./data/logos/partners/SpeyerMuseum.jpg",
                     "title": "Historical Museum of the Palatinate"
                 }
             ],
@@ -1801,7 +1801,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-upp.png",
+                    "@id": "./data/logos/partners/Uppsala.ong.png",
                     "title": "Uppsala University Library"
                 }
             ],
@@ -1988,7 +1988,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/BAV.png",
+                    "@id": "./data/logos/partners/Vatican.png",
                     "title": "BAV"
                 }
             ],
@@ -2353,7 +2353,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-duomo.png",
+                    "@id": "./data/logos/partners/Vercelli.png",
                     "title": "Capitular Library of Vercelli"
                 }
             ],
@@ -2515,7 +2515,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-lavra.png",
+                    "@id": "./data/logos/partners/LavraMonastery.png",
                     "title": "Great Lavra"
                 }
             ],
@@ -2590,7 +2590,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-yerevan.png",
+                    "@id": "./data/logos/partners/Matenadaran.png",
                     "title": "Matenadaran"
                 }
             ],
@@ -2840,7 +2840,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-iviron.png",
+                    "@id": "./data/logos/partners/iviron.png",
                     "title": "Iviron Monastery"
                 }
             ],
@@ -2916,7 +2916,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/bibel-orient-museum.png",
+                    "@id": "./data/logos/partners/bibelorient.png",
                     "title": "Bibel + Orient Museum"
                 }
             ],
@@ -2991,7 +2991,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-GNM.png",
+                    "@id": "./data/logos/partners/Georgian.png",
                     "title": "Georgian National Museum"
                 }
             ],
@@ -3063,7 +3063,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/patriarchate-alexandria.png",
+                    "@id": "./data/logos/partners/Alexandria.png",
                     "title": "Greek Orthodox Church of Alexandria"
                 }
             ],
@@ -3138,7 +3138,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/mb_morganlibrarymuseum_01.jpg",
+                    "@id": "./data/logos/partners/Morgan.jpg",
                     "title": "The Morgan Library and Museum"
                 }
             ],
@@ -3233,7 +3233,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-NBG.png",
+                    "@id": "./data/logos/partners/BankGreece.png",
                     "title": "National Bank of Greece"
                 }
             ],
