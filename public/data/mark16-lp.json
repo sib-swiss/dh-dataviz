@@ -520,10 +520,7 @@
                     "@id": "https://doi.org/10.34847/nkl.d3d1coro",
                     "title": "GA 099",
                     "content": "page 161 and page 162",
-                    "lang": [
-                        "Coptic",
-                        "Greek (Ancient)"
-                    ],
+                    "lang": "Coptic, Greek (Ancient)",
                     "when": {
                         "timespans": [
                             {
@@ -718,10 +715,7 @@
                     "@id": "https://doi.org/10.34847/nkl.25fcevj8",
                     "title": "bo 2",
                     "content": "f.193v, f.194r, f.194v, f.195r, f.195v and f.196r",
-                    "lang": [
-                        "Arabic",
-                        "Coptic"
-                    ],
+                    "lang": "Arabic, Coptic",
                     "when": {
                         "timespans": [
                             {
@@ -797,10 +791,7 @@
                     "@id": "https://doi.org/10.34847/nkl.23b72o82",
                     "title": "bo 13",
                     "content": "f.212r, f.212v, f.213r, f.213v, f.214r",
-                    "lang": [
-                        "Arabic",
-                        "Coptic"
-                    ],
+                    "lang": "Arabic, Coptic",
                     "when": {
                         "timespans": [
                             {
@@ -952,10 +943,7 @@
                     "@id": "https://doi.org/10.34847/nkl.5508o345",
                     "title": "GA 05",
                     "content": "f.346v, f.347r, f.347v, f.348r and f.348v",
-                    "lang": [
-                        "Greek (Ancient)",
-                        "Latin"
-                    ],
+                    "lang": "Greek (Ancient), Latin",
                     "when": {
                         "timespans": [
                             {
