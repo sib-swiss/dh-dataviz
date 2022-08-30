@@ -244,7 +244,6 @@ const ItemListCard = props => {
             <div className="p6o-external-link-meta">
               <a 
                 className="p6o-external-link-host"
-                onClick={() => window.open(manuscript.relationTo, '_blank')}
                 href={manuscript.relationTo} 
                 target="_blank"
                 title={manuscript.relationTo}>
@@ -253,7 +252,6 @@ const ItemListCard = props => {
               {manuscript.content &&
                 <a 
                   className="p6o-external-link-label"
-                  onClick={() => window.open(manuscript.relationTo, '_blank')}
                   href={manuscript.relationTo} 
                   target="_blank"
                   title={manuscript.relationTo}>
