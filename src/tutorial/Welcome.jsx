@@ -23,7 +23,7 @@ const Welcome = props => {
         <h1>Welcome!</h1>
 
         <p class="p6o-welcome-intro">
-          Welcome to the <strong>DataViz</strong> of the <a href="https://mark16.sib.swiss/">NSF MARK16 VRE</a>!
+          Welcome to the <strong>DataViz</strong> of the <a href="https://mark16.sib.swiss/">SNSF MARK16 VRE</a>!
         </p>
         <p>
           You will find here a digital map that locates all the
@@ -58,9 +58,9 @@ const Welcome = props => {
         </div>
 
         <div class="p6o-welcome-logos">
-          <img src="../../../logos/Pelagios.png"/>
-          <img src="../../../logos/SNSF.png"/>
-          <img src="../../../logos/SIBlogo.png"/>
+          <img src="../../../logos/Pelagios_sm.png"/>
+          <img src="../../../logos/SNSF_sm.png"/>
+          <img src="../../../logos/SIBlogo_sm.png"/>
         </div>
       </div>
     </div>,
