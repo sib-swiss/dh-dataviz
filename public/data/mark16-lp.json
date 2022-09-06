@@ -1524,7 +1524,7 @@
             ],
             "depictions": [
                 {
-                    "@id": "./data/logos/partners/partner-nle.png",
+                    "@id": "./data/logos/partners/partner-nle_sm.png",
                     "title": "National Archives and Library of Ethiopia"
                 }
             ],
@@ -1724,7 +1724,7 @@
             },
             "descriptions": [
                 {
-                    "value": "Museum in SPeyer, Germany (Historisches Museum der Pfalz)",
+                    "value": "Museum in Speyer, Germany (Historisches Museum der Pfalz)",
                     "source": "https://mr-mark16.sib.swiss/show?id=Qk8y"
                 }
             ],
@@ -2069,7 +2069,7 @@
             },
             "descriptions": [
                 {
-                    "value": "The National LIbrary of Russia",
+                    "value": "The National Library of Russia",
                     "source": "https://mr-mark16.sib.swiss/show?id=Qk8y"
                 }
             ],
