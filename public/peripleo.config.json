@@ -10,7 +10,7 @@
 	  }
 	],
 	"facets": [
-	  { "name": "language", "path": ["relations", "lang"] },
+	  { "name": "language", "path": ["relations", "lang"], "dynamicCondition": {"name": "manuscript", "path": "title"} },
 	  { "name": "manuscript", "path": ["relations", "title"], "dynamicCondition": {"name": "language", "path": "lang"} },
 	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": {"name": "language", "path": "lang"} },
 	  "type"
