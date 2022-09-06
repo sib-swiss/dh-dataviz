@@ -195,16 +195,10 @@ const LinkGroup = props => {
 
 }
 
-const ManuscriptLink = (node) => {
-  const href = node.id
-  console.log(href)
-  return {href}
-}
-
 const ItemListCard = props => {
 
   const { referrer } = props;
-  console.log(props.mssList[0].relationTo);
+
   const config = props.nodeList[0].config;
 
   // Temporary hack!
@@ -236,7 +230,7 @@ const ItemListCard = props => {
           <IoCloseSharp />
         </button>
       </header>
-      <ul class="p6o-links-group-container">
+      <ul className="p6o-links-group-container">
         {props.mssList.map(manuscript => (
           <li className="p6o-link p6o-link-external"
           key={manuscript.relationTo}
@@ -249,11 +243,18 @@ const ItemListCard = props => {
                 title={manuscript.relationTo}>
                   {manuscript.title}
               </a>
+              <a 
+                className="p6o-external-link-label"
+                aria-disabled="true"
+                title={manuscript.relationTo}>
+                  {manuscript.lang}
+              </a>
               {manuscript.content &&
                 <a 
                   className="p6o-external-link-label"
                   href={manuscript.relationTo} 
                   target="_blank"
+                  aria-disabled="true"
                   title={manuscript.relationTo}>
                     {manuscript.content}
                 </a>

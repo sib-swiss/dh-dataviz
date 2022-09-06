@@ -197,7 +197,7 @@
             "links": [
                 {
                     "type": "closeMatch",
-                    "identifier": "https://viaf.org/viaf/122897337x/"
+                    "identifier": "http://viaf.org/viaf/146140663"
                 }
             ],
             "depictions": [
@@ -1335,7 +1335,7 @@
             "links":[
                 {
                     "type": "closeMatch",
-                    "identifier": "https://viaf.org/viaf/122897337x/"
+                    "identifier": "http://viaf.org/viaf/307292838"
                 }
             ],
             "depictions": [
@@ -1594,7 +1594,7 @@
                 },
                 {
                     "type": "closeMatch",
-                    "identifier": "https://viaf.org/viaf/122897337x/"
+                    "identifier": "http://viaf.org/viaf/389155103950176200672"
                 }
             ],
             "depictions": [
@@ -1673,7 +1673,7 @@
                 },
                 {
                     "type": "closeMatch",
-                    "identifier": "https://viaf.org/viaf/122897337x/"
+                    "identifier": "http://viaf.org/viaf/126718339"
                 }
             ],
             "depictions": [
@@ -3015,7 +3015,7 @@
                 },
                 {
                     "type": "closeMatch",
-                    "identifier": "https://id.loc.gov/authorities/ n83032369\n"
+                    "identifier": "http://id.loc.gov/authorities/names/n83032369"
                 }
             ],
             "depictions": [
