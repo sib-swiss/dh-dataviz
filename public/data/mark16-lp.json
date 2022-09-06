@@ -523,7 +523,7 @@
                     "@id": "https://doi.org/10.34847/nkl.d3d1coro",
                     "title": "GA 099",
                     "content": "page 161 and page 162",
-                    "lang": "Coptic, Greek (Ancient)",
+                    "lang": "Greek (Ancient), Coptic",
                     "when": {
                         "timespans": [
                             {
@@ -2733,7 +2733,7 @@
                     "relationTo": "https://mr-mark16.sib.swiss/show?id=TDE2MDI=",
                     "@id": "https://doi.org/11280/99d3b2ea",
                     "content": "f.2r, f.2v, f.3r, f.3v and f.4r",
-                    "title": "GA L1602",
+                    "title": "L1602",
                     "lang": "Greek (Ancient)",
                     "when": {
                         "timespans": [

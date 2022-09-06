@@ -57,11 +57,11 @@ const computeSimpleFieldFacet = (items, facet, postFilter) =>
 const computeCustomFnFacet = (items, facet, postFilter) => 
   computeFacet(items, facet.name, facet.definition, postFilter);
 
-const computeNestedFieldFacet = (items, facet, postFilter, dynamicCondition, dynamicConditionValues) => {
+const computeNestedFieldFacet = (items, facet, postFilter, dynamicConditionPath, dynamicConditionValues) => {
 
-  const getValueRecursive = (obj, path, condition, dynamicConditionValues) => {
+  const getValueRecursive = (obj, path, condition, dynamicConditionPath, dynamicConditionValues) => {
     const [ nextSegment, ...pathRest ] = path;
-    
+
     const meetsCondition = obj => {
       if (!condition)
         return true;
@@ -80,30 +80,33 @@ const computeNestedFieldFacet = (items, facet, postFilter, dynamicCondition, dyn
     }
 
     const value = obj[nextSegment];
-    console.log(nextSegment);
-    //obj = the item (place) + the manuscripts (for the Language/Location facets)
-    // nextSegment = the relations>title path
-    //pathRest = the path where to find the information (eg. "title" for the manuscript facet)?
 
     if (pathRest.length === 0 || !value) {
-      //value = manuscript title for the mansucript facet
-      //before we arrive here, we need to add the dynamic condition
-      return value;
+
+      //if there are values for the dynamic condition, and the manuscript matches one of the values
+      if (dynamicConditionValues.length > 0 && dynamicConditionValues.includes(obj[dynamicConditionPath])){
+        //then add the manuscript to the list to be counted
+        return value;
+      }
+      else if (!dynamicConditionValues || dynamicConditionValues.length == 0){
+        return value;
+      }
+      
     } else {
       return Array.isArray(value) ?
 
         value.filter(meetsCondition)
-          .map(obj => getValueRecursive(obj, pathRest, condition))
+          .map(obj => getValueRecursive(obj, pathRest, condition, dynamicConditionPath, dynamicConditionValues))
           .filter(value => value) // Remove undefined
 
         :
         
         meetsCondition(value) ?
-          getValueRecursive(value, pathRest, condition) : [];       
+          getValueRecursive(value, pathRest, condition, dynamicConditionPath, dynamicConditionValues) : [];       
     }
   };
 
-  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition, dynamicConditionValues), postFilter);
+  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition, dynamicConditionPath, dynamicConditionValues), postFilter);
 }
 
 export const computeFacetDistribution = (items, facet, postFilter, queryFilters) => {
@@ -112,15 +115,18 @@ export const computeFacetDistribution = (items, facet, postFilter, queryFilters)
   //if facet.dynamicCondition is in filters, get the filters.values
   let dynamicConditionValues = [];
 
-  if(Array.isArray(queryFilters)){
-    let dynamicCondition = queryFilters.find(f => f.facet === facet.dynamicCondition);
+  if(Array.isArray(queryFilters) && facet.dynamicCondition){
+    let dynamicCondition = queryFilters.find(f => f.facet === facet.dynamicCondition.name);
     if(dynamicCondition){
       dynamicConditionValues = dynamicCondition.values;
     }
   }
 
+  let dynamicConditionPath = facet.dynamicCondition ? facet.dynamicCondition.path : ""; 
+
   if (Array.isArray(definition))
-    return computeNestedFieldFacet(items, facet, postFilter, facet.dynamicCondition, dynamicConditionValues); //I think it's this one for our facets (not sure)
+    //adding the dynamic condition to NestedFieldFacet only
+    return computeNestedFieldFacet(items, facet, postFilter, dynamicConditionPath, dynamicConditionValues);
   else if (definition instanceof Function)
     return computeCustomFnFacet(items, facet, postFilter);
   else 

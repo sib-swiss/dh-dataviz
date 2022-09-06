@@ -16,7 +16,7 @@ export const parseFilterDefinition = str => {
 }
 
 const evalNestedFieldFilter = (allowedValues, path) => item => {
-  console.log("evalNestedFIlter");
+
   const getValueRecursive = (obj, p) => {
     const [ nextSegment, ...pathRest ] = p;
 
