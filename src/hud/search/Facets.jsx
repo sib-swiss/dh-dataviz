@@ -24,7 +24,7 @@ export const getTopEight = (facetCounts, filterValues) => {
       .map(label => facetCounts.find(c => c[0] === label))
       .filter(c => c) /* remove undefined */ : [];
   
-  filterCounts.sort((a, b) => b[1] - a[1]);
+  filterCounts.sort((a, b) => a[0].localeCompare(b[0]));
 
   if (filterCounts.length > 7) {
     // More than 7 current filters -> display top 8
@@ -33,7 +33,7 @@ export const getTopEight = (facetCounts, filterValues) => {
     // Less than 8 filer values -> fill up the rest with top counts
     const unselected = facetCounts.filter(c => !filterCounts.find(s => s[0] === c[0]));
     topEight = [...filterCounts, ...unselected.slice(0, 8 - filterCounts.length)];
-    topEight.sort((a, b) => b[1] - a[1]);
+    topEight.sort((a, b) => a[0].localeCompare(b[0]));
   } else {
     // No filters - just display top 8
     topEight = facetCounts.slice(0, 8);
