@@ -11,8 +11,8 @@
 	],
 	"facets": [
 	  { "name": "language", "path": ["relations", "lang"] },
-	  { "name": "manuscript", "path": ["relations", "title"] },
-	  { "name": "location", "path": ["relations", "label"] },
+	  { "name": "manuscript", "path": ["relations", "title"], "dynamicCondition": "language" },
+	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": "language" },
 	  "type"
 	],
 	"link_icons": [

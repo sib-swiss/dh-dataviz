@@ -1,9 +1,10 @@
 export class Facet {
 
-  constructor(name, definition, condition) {
+  constructor(name, definition, condition, dynamicCondition) {
     this.name = name;
     this.definition = definition;
     this.condition = condition;
+    this.dynamicCondition = dynamicCondition;
   } 
 
 }
@@ -15,6 +16,8 @@ const toSortedArray = counts => {
 }
 
 const computeFacet = (items, facetName, fn, postFilter) => {
+  
+  
   const counts = {};
 
   const facetedItems = items.map(item => {
@@ -54,11 +57,11 @@ const computeSimpleFieldFacet = (items, facet, postFilter) =>
 const computeCustomFnFacet = (items, facet, postFilter) => 
   computeFacet(items, facet.name, facet.definition, postFilter);
 
-const computeNestedFieldFacet = (items, facet, postFilter) => {
+const computeNestedFieldFacet = (items, facet, postFilter, dynamicCondition, dynamicConditionValues) => {
 
-  const getValueRecursive = (obj, path, condition) => {
+  const getValueRecursive = (obj, path, condition, dynamicConditionValues) => {
     const [ nextSegment, ...pathRest ] = path;
-
+    
     const meetsCondition = obj => {
       if (!condition)
         return true;
@@ -77,7 +80,14 @@ const computeNestedFieldFacet = (items, facet, postFilter) => {
     }
 
     const value = obj[nextSegment];
+    console.log(nextSegment);
+    //obj = the item (place) + the manuscripts (for the Language/Location facets)
+    // nextSegment = the relations>title path
+    //pathRest = the path where to find the information (eg. "title" for the manuscript facet)?
+
     if (pathRest.length === 0 || !value) {
+      //value = manuscript title for the mansucript facet
+      //before we arrive here, we need to add the dynamic condition
       return value;
     } else {
       return Array.isArray(value) ?
@@ -93,13 +103,24 @@ const computeNestedFieldFacet = (items, facet, postFilter) => {
     }
   };
 
-  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition), postFilter);
+  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition, dynamicConditionValues), postFilter);
 }
 
-export const computeFacetDistribution = (items, facet, postFilter) => {
+export const computeFacetDistribution = (items, facet, postFilter, queryFilters) => {
   const { definition } = facet;
+
+  //if facet.dynamicCondition is in filters, get the filters.values
+  let dynamicConditionValues = [];
+
+  if(Array.isArray(queryFilters)){
+    let dynamicCondition = queryFilters.find(f => f.facet === facet.dynamicCondition);
+    if(dynamicCondition){
+      dynamicConditionValues = dynamicCondition.values;
+    }
+  }
+
   if (Array.isArray(definition))
-    return computeNestedFieldFacet(items, facet, postFilter);
+    return computeNestedFieldFacet(items, facet, postFilter, facet.dynamicCondition, dynamicConditionValues); //I think it's this one for our facets (not sure)
   else if (definition instanceof Function)
     return computeCustomFnFacet(items, facet, postFilter);
   else 
