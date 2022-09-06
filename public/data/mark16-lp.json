@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "@context": "mark16-linkedplaces-context.jsonld",
     "features": [
         {
             "@id": "https://www.wikidata.org/wiki/Q185362",
