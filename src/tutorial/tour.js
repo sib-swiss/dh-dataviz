@@ -20,7 +20,7 @@ const tour = [{
   disableBeacon: true
 },{
   target: '.p6o-facets ul',
-  content: 'You can filter the data on the map by clicking the labels.',
+  content: <div>You can filter the data on the map by clicking the labels.<p>If you select a language, you will see in the next filter all the manuscripts in this particular language.</p></div>,
   disableBeacon: true
 },{
   target: 'body',
