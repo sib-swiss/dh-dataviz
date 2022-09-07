@@ -519,26 +519,6 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwOTk=",
-                    "@id": "https://doi.org/10.34847/nkl.d3d1coro",
-                    "title": "GA 099",
-                    "content": "page 161 and page 162",
-                    "lang": "Greek (Ancient), Coptic",
-                    "when": {
-                        "timespans": [
-                            {
-                                "start": {
-                                    "earliest": "600",
-                                    "latest": "699"
-                                }
-                            }
-                        ],
-                        "label": "7th century CE"
-                    }
-                },
-                {
-                    "relationType": "gvp:aat2208_locus-setting_for",
-                    "label": "physical and virtual",
                     "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRIMg==",
                     "@id": "https://doi.org/10.34847/nkl.540bgjjd",
                     "title": "Eth 2",
@@ -594,6 +574,26 @@
                             }
                         ],
                         "label": "8th century CE"
+                    }
+                },
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "physical and virtual",
+                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwOTk=",
+                    "@id": "https://doi.org/10.34847/nkl.d3d1coro",
+                    "title": "GA 099",
+                    "content": "page 161 and page 162",
+                    "lang": "Greek (Ancient), Coptic",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {
+                                    "earliest": "600",
+                                    "latest": "699"
+                                }
+                            }
+                        ],
+                        "label": "7th century CE"
                     }
                 },
                 {
