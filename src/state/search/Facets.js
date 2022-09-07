@@ -57,9 +57,9 @@ const computeSimpleFieldFacet = (items, facet, postFilter) =>
 const computeCustomFnFacet = (items, facet, postFilter) => 
   computeFacet(items, facet.name, facet.definition, postFilter);
 
-const computeNestedFieldFacet = (items, facet, postFilter, dynamicConditionPath, dynamicConditionValues) => {
+const computeNestedFieldFacet = (items, facet, postFilter, dynamicConditions) => {
 
-  const getValueRecursive = (obj, path, condition, dynamicConditionPath, dynamicConditionValues) => {
+  const getValueRecursive = (obj, path, condition, dynamicConditions) => {
     const [ nextSegment, ...pathRest ] = path;
 
     const meetsCondition = obj => {
@@ -83,12 +83,21 @@ const computeNestedFieldFacet = (items, facet, postFilter, dynamicConditionPath,
 
     if (pathRest.length === 0 || !value) {
 
-      //if there are values for the dynamic condition, and the manuscript matches one of the values
-      if (dynamicConditionValues.length > 0 && dynamicConditionValues.includes(obj[dynamicConditionPath])){
-        //then add the manuscript to the list to be counted
-        return value;
+      //if the dynamic condition exists and is not an empty array
+      if (dynamicConditions && dynamicConditions.length > 0){
+        let isFilteredItem = true;
+        //loop over the dynamic condition path/values
+        dynamicConditions.map(condition =>{
+            //check that for each condition the manuscript (path) matches one of the values
+            //if the item does not meet one of the conditions, set to false
+            isFilteredItem = condition.values.includes(obj[condition.path]);
+        })
+        //if the item matched all conditions, return the value to be counted in the facet counts
+        if (isFilteredItem){
+          return value;
+        }
       }
-      else if (!dynamicConditionValues || dynamicConditionValues.length == 0){
+      else if (!dynamicConditions || dynamicConditions.length == 0){
         return value;
       }
       
@@ -96,37 +105,49 @@ const computeNestedFieldFacet = (items, facet, postFilter, dynamicConditionPath,
       return Array.isArray(value) ?
 
         value.filter(meetsCondition)
-          .map(obj => getValueRecursive(obj, pathRest, condition, dynamicConditionPath, dynamicConditionValues))
+          .map(obj => getValueRecursive(obj, pathRest, condition, dynamicConditions))
           .filter(value => value) // Remove undefined
 
         :
         
         meetsCondition(value) ?
-          getValueRecursive(value, pathRest, condition, dynamicConditionPath, dynamicConditionValues) : [];       
+          getValueRecursive(value, pathRest, condition, dynamicConditions) : [];       
     }
   };
 
-  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition, dynamicConditionPath, dynamicConditionValues), postFilter);
+  return computeFacet(items, facet.name, item => getValueRecursive(item, facet.definition, facet.condition, dynamicConditions), postFilter);
 }
 
 export const computeFacetDistribution = (items, facet, postFilter, queryFilters) => {
   const { definition } = facet;
-
-  //if facet.dynamicCondition is in filters, get the filters.values
-  let dynamicConditionValues = [];
-
+  
+  //create an array of dynamic conditions with the path and values
+  //the values will create an additional filter for creating the counts to display in a facet
+  let dynamicConditions= [];
+  
+  //check if there are filters and the current facet has one or more dynamic conditions
   if(Array.isArray(queryFilters) && facet.dynamicCondition){
-    let dynamicCondition = queryFilters.find(f => f.facet === facet.dynamicCondition.name);
-    if(dynamicCondition){
-      dynamicConditionValues = dynamicCondition.values;
+    //for each dynamic condition, select the path and values
+    facet.dynamicCondition.map(condition => {
+      let pair = {};
+      //path
+      pair["path"] = condition.path;
+      //values are found in the filter with the same facet as the condition name
+      let dynamicValues = queryFilters.find(f => f.facet === condition.name); 
+      if (dynamicValues){
+        pair["values"] = dynamicValues.values;
+        //assign path/values only if there are values to filter with
+        dynamicConditions.push(pair);
+      }
+      
+      });
     }
-  }
-
-  let dynamicConditionPath = facet.dynamicCondition ? facet.dynamicCondition.path : ""; 
 
   if (Array.isArray(definition))
-    //adding the dynamic condition to NestedFieldFacet only
-    return computeNestedFieldFacet(items, facet, postFilter, dynamicConditionPath, dynamicConditionValues);
+    //adding a single dynamic condition to NestedFieldFacet only
+    //TODO: add several path/values for dynamic conditions
+    //the Language/Manuscript/location facets should each be filtered by the other two!
+    return computeNestedFieldFacet(items, facet, postFilter, dynamicConditions);
   else if (definition instanceof Function)
     return computeCustomFnFacet(items, facet, postFilter);
   else 
