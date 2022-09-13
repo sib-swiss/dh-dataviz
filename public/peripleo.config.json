@@ -13,7 +13,7 @@
 	"facets": [
 	  { "name": "language", "path": ["relations", "lang"], "dynamicCondition": [{"name": "manuscript", "path": "title"}, {"name": "location", "path": "label"}] },
 	  { "name": "manuscript", "path": ["relations", "title"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "location", "path": "label"}] },
-	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "manuscript", "path": "titl"}] },
+	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "manuscript", "path": "title"}] },
 	  "type"
 	],
 	"link_icons": [
