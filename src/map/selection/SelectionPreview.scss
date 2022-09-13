@@ -85,6 +85,8 @@
 }
 
 .cardstack .card .p6o-selection-itemlistcard {
+  max-height: 450px;
+  overflow: auto;
 
   header {
     justify-content:space-between;
@@ -279,13 +281,14 @@
       a.p6o-external-link-label {
         text-overflow:ellipsis;
         overflow:hidden;
+        text-decoration: none;
       }
 
       a.p6o-external-link-host {
         font-weight:bold;
       }
 
-      a:hover {
+      a.p6o-external-link-host:hover {
         text-decoration:underline;
       }
     
@@ -395,6 +398,10 @@
       @include rounded-corners(3px);
 
       a {
+        color:#fff;
+      }
+
+      h1 {
         color:#fff;
       }
 

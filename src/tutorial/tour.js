@@ -20,12 +20,7 @@ const tour = [{
   disableBeacon: true
 },{
   target: '.p6o-facets ul',
-  content: 'You can filter the data on the map by clicking the labels.',
-  disableBeacon: true
-},{
-  target: '.p6o-map-modes',
-  title: 'Map Modes',
-  content: 'You can show data in different ways by changing the map mode here.',
+  content: <div>You can filter the data on the map by clicking the labels.<p>If you select a language, you will see in the next filter all the manuscripts in this particular language.</p></div>,
   disableBeacon: true
 },{
   target: 'body',
@@ -33,8 +28,8 @@ const tour = [{
   title: 'That\'s it!',
   content: 
     <span>
-      Thanks for taking the time. Have fun exploring our Peripleo mapping prototype.
-      If you want to know more about the software, <a href="https://github.com/britishlibrary/peripleo-lanc" target="_blank">click here</a>.
+      Thanks for taking the time. Have fun exploring our data visualisation for MARK16.
+      If you want to know more about the Peripleo software, <a href="https://github.com/britishlibrary/peripleo-lanc" target="_blank">click here</a>.
     </span>
 }];
 

@@ -110,6 +110,7 @@ export default class Store {
     return linkedNodes.map(t => t.link.data);
   }
 
+
   getNearestNeighbours = (feature, n) => {
     const [x, y] = centroid(feature)?.geometry.coordinates;
     const neighbours = knn(this.spatialIndex, x, y, n + 1);

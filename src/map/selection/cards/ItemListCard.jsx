@@ -221,7 +221,7 @@ const ItemListCard = props => {
         }
 
         {referrer && 
-          <h1>Related to: {referrer.node.title}</h1>
+          <h1>{referrer.node.title}</h1>
         }
         
         <button
@@ -230,40 +230,41 @@ const ItemListCard = props => {
           <IoCloseSharp />
         </button>
       </header>
-      {config.link_icons ?
-        <ul className="p6o-link-groups-container">
-          {grouped.map(([label, nodes]) => 
-            <LinkGroup 
-              key={label} 
-              open={grouped.length == 1}
-              label={label} 
-              nodes={nodes} 
-              onGoTo={props.onGoTo} />
-          )}
-        </ul>
-       
-        :
-
-        <ul>
-          {props.nodeList.map(selection => selection.node.properties ?
-            <li 
-              key={selection.node.identifier}
-              className="p6o-link-internal p6o-link">
-                <InternalLink 
-                  {...selection } 
-                  onSelect={node => props.onGoTo(node)} /> 
-            </li> :
-
-            <li
-              key={selection.node.identifier}
-              className="p6o-link-external p6o-link">
-              <ExternalLink  {...selection } />
-            </li>
-          )}
-        </ul>
-      }
+      <ul className="p6o-links-group-container">
+        {props.mssList.map(manuscript => (
+          <li className="p6o-link p6o-link-external"
+          key={manuscript.relationTo}
+          >
+            <div className="p6o-external-link-meta">
+              <a 
+                className="p6o-external-link-host"
+                href={manuscript.relationTo} 
+                target="_blank"
+                title={manuscript.relationTo}>
+                  {manuscript.title}
+              </a>
+              <a 
+                className="p6o-external-link-label"
+                aria-disabled="true"
+                title={manuscript.relationTo}>
+                  {manuscript.lang}
+              </a>
+              {manuscript.content &&
+                <a 
+                  className="p6o-external-link-label"
+                  href={manuscript.relationTo} 
+                  target="_blank"
+                  aria-disabled="true"
+                  title={manuscript.relationTo}>
+                    {manuscript.content}
+                </a>
+              }
+            </div>
+          </li>
+        ))}
+      </ul>
       <footer aria-live={true}>
-        <AiOutlineInfoCircle />Links open a new tab
+        <AiOutlineInfoCircle />Links open a new tab to MARK16 Manuscript Room
       </footer>
     </div>
   )

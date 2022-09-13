@@ -1,6 +1,4 @@
-# Welcome to Peripleo
+# Welcome to MARK16 Dataviz
 
-This is an example __welcome message__. Check our 
-[project website](https://britishlibrary.github.io/locating-a-national-collection/maps.html).
-
-Have fun.
+This is our data visualisation of __manuscript repositories__. Check our 
+[project website](https://mark16.sib.swiss).

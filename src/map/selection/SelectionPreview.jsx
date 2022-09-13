@@ -59,12 +59,13 @@ const SelectionPreview = props => {
       { config: props.config, node: arg };
 
     const isList = data.nodeList?.length > 1;
+
     if (isList) {      
       setCards([ ...cards, data ]);
     } else {
       // Single link
       const link = data.nodeList ? data.nodeList[0] : data;
-
+      
       // Bit of a hack...
       insertSeoData(link.node);
 

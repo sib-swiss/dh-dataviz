@@ -22,10 +22,14 @@ const Welcome = props => {
       <div className="p6o-welcome">
         <h1>Welcome!</h1>
 
+        <p class="p6o-welcome-intro">
+          Welcome to the <strong>DataViz</strong> of the <a href="https://mark16.sib.swiss/">SNSF MARK16 VRE</a>!
+        </p>
         <p>
-          Welcome to Peripleo, the map prototype for 
-          the <strong>Locating a National Collection</strong> project. 
-          Take the tour to learn about the main user interface elements.
+          You will find here a digital map that locates all the
+          manuscript data of <a href="https://mr-mark16.sib.swiss/">MARK16 Manuscript Room</a>.
+          It has been created by Elisa Nury and the MARK16 team in partnership with the <a href="https://pelagios.org/">Pelagios network</a>, and 
+          uses <a href="https://www.openstreetmap.org/">Open Street Map</a>.
         </p>
         
         <div className="p6o-welcome-buttons">
@@ -51,6 +55,12 @@ const Welcome = props => {
             onClick={props.onTakeTour}>
             Yes, take the tour
           </button>
+        </div>
+
+        <div class="p6o-welcome-logos">
+          <img src="../../../logos/Pelagios_sm.png"/>
+          <img src="../../../logos/SNSF_sm.png"/>
+          <img src="../../../logos/SIBlogo_sm.png"/>
         </div>
       </div>
     </div>,
