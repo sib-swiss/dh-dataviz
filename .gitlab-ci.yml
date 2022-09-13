@@ -5,6 +5,7 @@ stages:
 image: node:latest
 
 build:
+  stage: build
   script:
     - cp -rf public/* docs/
     - npm install
@@ -19,6 +20,7 @@ build:
     when: always
 
 deploy:
+  stage: deploy
   needs:
     - job: build
       artifacts: true
