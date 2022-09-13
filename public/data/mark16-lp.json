@@ -3,8 +3,8 @@
     "@context": "mark16-linkedplaces-context.jsonld",
     "features": [
         {
-            "@id": "https://www.wikidata.org/wiki/Q185362",
-            "uuid": "Q185362",
+            "@id": "Q185362",
+            "uuid": "https://www.wikidata.org/wiki/Q185362",
             "type": "Feature",
             "properties": {
                 "title": "Saint Catherine Monastery",
@@ -155,8 +155,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q81164649",
-            "uuid": "Q81164649",
+            "@id": "Q81164649",
+            "uuid": "https://www.wikidata.org/wiki/Q81164649",
             "type": "Feature",
             "properties": {
                 "title": "Universitätsbibliothek Basel",
@@ -167,8 +167,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.58082,
-                    47.55977
+                    7.5810253,
+                    47.5594545
                 ]
             },
             "descriptions": [
@@ -270,8 +270,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q578460",
-            "uuid": "Q578460",
+            "@id": "Q578460",
+            "uuid": "https://www.wikidata.org/wiki/Q578460",
             "type": "Feature",
             "properties": {
                 "title": "Biblioteca Nazionale Marciana",
@@ -353,8 +353,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2201144",
-            "uuid": "Q2201144",
+            "@id": "Q2201144",
+            "uuid": "https://www.wikidata.org/wiki/Q2201144",
             "type": "Feature",
             "properties": {
                 "title": "Biblioteca nazionale universitaria di Torino",
@@ -365,8 +365,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.68633,
-                    45.068684
+                    7.6857279,
+                    45.0686306
                 ]
             },
             "descriptions": [
@@ -436,8 +436,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q193563",
-            "uuid": "Q193563",
+            "@id": "Q193563",
+            "uuid": "https://www.wikidata.org/wiki/Q193563",
             "type": "Feature",
             "properties": {
                 "title": "Bibliothèque nationale de France",
@@ -659,8 +659,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q82133",
-            "uuid": "Q82133",
+            "@id": "Q82133",
+            "uuid": "https://www.wikidata.org/wiki/Q82133",
             "type": "Feature",
             "properties": {
                 "title": "Bodleian Library",
@@ -671,8 +671,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -1.255139,
-                    51.753972
+                    -1.2545313,
+                    51.7540732
                 ]
             },
             "descriptions": [
@@ -731,8 +731,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q23308",
-            "uuid": "Q23308",
+            "@id": "Q23308",
+            "uuid": "https://www.wikidata.org/wiki/Q23308",
             "type": "Feature",
             "properties": {
                 "title": "British Library",
@@ -743,8 +743,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -0.126944,
-                    51.529444
+                    -0.1281116,
+                    51.5293212
                 ]
             },
             "descriptions": [
@@ -887,8 +887,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1028334",
-            "uuid": "Q1028334",
+            "@id": "Q1028334",
+            "uuid": "https://www.wikidata.org/wiki/Q1028334",
             "type": "Feature",
             "properties": {
                 "title": "Cambridge University Library",
@@ -962,8 +962,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1475704",
-            "uuid": "Q1475704",
+            "@id": "Q1475704",
+            "uuid": "https://www.wikidata.org/wiki/Q1475704",
             "type": "Feature",
             "properties": {
                 "title": "Rabban Hormizd Monastery",
@@ -1041,8 +1041,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q391976",
-            "uuid": "Q391976",
+            "@id": "Q391976",
+            "uuid": "https://www.wikidata.org/wiki/Q391976",
             "type": "Feature",
             "properties": {
                 "title": "Chester Beatty Library",
@@ -1053,8 +1053,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -6.267,
-                    53.342
+                    -6.2682093,
+                    53.342265
                 ]
             },
             "descriptions": [
@@ -1150,8 +1150,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q5312898",
-            "uuid": "Q5312898",
+            "@id": "Q5312898",
+            "uuid": "https://www.wikidata.org/wiki/Q5312898",
             "type": "Feature",
             "properties": {
                 "title": "Duke University Libraries",
@@ -1222,8 +1222,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1075126",
-            "uuid": "Q1075126",
+            "@id": "Q1075126",
+            "uuid": "https://www.wikidata.org/wiki/Q1075126",
             "type": "Feature",
             "properties": {
                 "title": "Freer Gallery of Art",
@@ -1234,8 +1234,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -77.026446,
-                    38.887983
+                    -77.0295797,
+                    38.8881979
                 ]
             },
             "descriptions": [
@@ -1297,8 +1297,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1273306",
-            "uuid": "Q1273306",
+            "@id": "Q1273306",
+            "uuid": "https://www.wikidata.org/wiki/Q1273306",
             "type": "Feature",
             "properties": {
                 "title": "E-codices",
@@ -1309,8 +1309,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.15,
-                    46.8
+                    7.15175,
+                    46.80621
                 ]
             },
             "descriptions": [
@@ -1382,8 +1382,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q5762205",
-            "uuid": "Q5762205",
+            "@id": "Q5762205",
+            "uuid": "https://www.wikidata.org/wiki/Q5762205",
             "type": "Feature",
             "properties": {
                 "title": "Hill Museum & Manuscript Library (Collegeville, Minnesota)",
@@ -1477,8 +1477,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2567785",
-            "uuid": "Q2567785",
+            "@id": "Q2567785",
+            "uuid": "https://www.wikidata.org/wiki/Q2567785",
             "type": "Feature",
             "properties": {
                 "title": "National Archives and Library of Ethiopia",
@@ -1552,8 +1552,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q6088902",
-            "uuid": "Q6088902",
+            "@id": "Q6088902",
+            "uuid": "https://www.wikidata.org/wiki/Q6088902",
             "type": "Feature",
             "properties": {
                 "title": "Istifanos Monastery",
@@ -1627,8 +1627,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q22720",
-            "uuid": "Q22720",
+            "@id": "Q22720",
+            "uuid": "https://www.wikidata.org/wiki/Q22720",
             "type": "Feature",
             "properties": {
                 "title": "Speyer Cathedral",
@@ -1706,8 +1706,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1325163",
-            "uuid": "Q1325163",
+            "@id": "Q1325163",
+            "uuid": "https://www.wikidata.org/wiki/Q1325163",
             "type": "Feature",
             "properties": {
                 "title": "Historical Museum of the Palatinate",
@@ -1785,8 +1785,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2901382",
-            "uuid": "Q2901382",
+            "@id": "Q2901382",
+            "uuid": "https://www.wikidata.org/wiki/Q2901382",
             "type": "Feature",
             "properties": {
                 "title": "Uppsala University Library",
@@ -1797,8 +1797,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    17.6323,
-                    59.8558
+                    17.6293499,
+                    59.8546895
                 ]
             },
             "descriptions": [
@@ -1860,8 +1860,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q213678",
-            "uuid": "Q213678",
+            "@id": "Q213678",
+            "uuid": "https://www.wikidata.org/wiki/Q213678",
             "type": "Feature",
             "properties": {
                 "title": "Vatican Library",
@@ -1976,8 +1976,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1967876",
-            "uuid": "Q1967876",
+            "@id": "Q1967876",
+            "uuid": "https://www.wikidata.org/wiki/Q1967876",
             "type": "Feature",
             "properties": {
                 "title": "National Library of the Czech Republic",
@@ -2051,8 +2051,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q267566",
-            "uuid": "Q267566",
+            "@id": "Q267566",
+            "uuid": "https://www.wikidata.org/wiki/Q267566",
             "type": "Feature",
             "properties": {
                 "title": "National Library of Russia",
@@ -2150,8 +2150,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1467610",
-            "uuid": "Q1467610",
+            "@id": "Q1467610",
+            "uuid": "https://www.wikidata.org/wiki/Q1467610",
             "type": "Feature",
             "properties": {
                 "title": "National Library of Greece",
@@ -2162,8 +2162,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.692222,
-                    37.941389
+                    23.6901507,
+                    37.939844
                 ]
             },
             "descriptions": [
@@ -2225,8 +2225,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q16532475",
-            "uuid": "Q16532475",
+            "@id": "Q16532475",
+            "uuid": "https://www.wikidata.org/wiki/Q16532475",
             "type": "Feature",
             "properties": {
                 "title": "Capitular Library of Vercelli",
@@ -2304,8 +2304,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q689896",
-            "uuid": "Q689896",
+            "@id": "Q689896",
+            "uuid": "https://www.wikidata.org/wiki/Q689896",
             "type": "Feature",
             "properties": {
                 "title": "Abbey library of St. Gallen",
@@ -2408,8 +2408,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q546516",
-            "uuid": "Q546516",
+            "@id": "Q546516",
+            "uuid": "https://www.wikidata.org/wiki/Q546516",
             "type": "Feature",
             "properties": {
                 "title": "Great Lavra",
@@ -2483,8 +2483,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1322278",
-            "uuid": "Q1322278",
+            "@id": "Q1322278",
+            "uuid": "https://www.wikidata.org/wiki/Q1322278",
             "type": "Feature",
             "properties": {
                 "title": "Matenadaran",
@@ -2572,8 +2572,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2496326",
-            "uuid": "Q2496326",
+            "@id": "Q2496326",
+            "uuid": "https://www.wikidata.org/wiki/Q2496326",
             "type": "Feature",
             "properties": {
                 "title": "University Library of the LMU Munich",
@@ -2651,8 +2651,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2496308",
-            "uuid": "Q2496308",
+            "@id": "Q2496308",
+            "uuid": "https://www.wikidata.org/wiki/Q2496308",
             "type": "Feature",
             "properties": {
                 "title": "University Library Freiburg",
@@ -2750,8 +2750,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q853354",
-            "uuid": "Q853354",
+            "@id": "Q853354",
+            "uuid": "https://www.wikidata.org/wiki/Q853354",
             "type": "Feature",
             "properties": {
                 "title": "Iviron Monastery",
@@ -2809,7 +2809,7 @@
                     "@id": "https://doi.org/10.34847/nkl.3ba82t98",
                     "content": "f.112v and f.113r",
                     "title": "geo 3",
-                    "lang": "Georgian (old)",
+                    "lang": "Georgian (Old)",
                     "when": {
                         "timespans": [
                             {
@@ -2822,8 +2822,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q679493",
-            "uuid": "Q679493",
+            "@id": "Q679493",
+            "uuid": "https://www.wikidata.org/wiki/Q679493",
             "type": "Feature",
             "properties": {
                 "title": "Bible and Orient Museum",
@@ -2901,8 +2901,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q2586798",
-            "uuid": "Q2586798",
+            "@id": "Q2586798",
+            "uuid": "https://www.wikidata.org/wiki/Q2586798",
             "type": "Feature",
             "properties": {
                 "title": "Georgian National Museum",
@@ -2960,7 +2960,7 @@
                     "@id": "https://doi.org/10.34847/nkl.aea2yhd5",
                     "content": "f.269r, f.269v and f.270r",
                     "title": "geo 2",
-                    "lang": "Georgian (old)",
+                    "lang": "Georgian (Old)",
                     "when": {
                         "timespans": [
                             {
@@ -2973,8 +2973,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q251268",
-            "uuid": "Q251268",
+            "@id": "Q251268",
+            "uuid": "https://www.wikidata.org/wiki/Q251268",
             "type": "Feature",
             "properties": {
                 "title": "Greek Orthodox Church of Alexandria",
@@ -3048,8 +3048,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1478423",
-            "uuid": "Q1478423",
+            "@id": "Q1478423",
+            "uuid": "https://www.wikidata.org/wiki/Q1478423",
             "type": "Feature",
             "properties": {
                 "title": "The Morgan Library & Museum",
@@ -3060,8 +3060,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.981556,
-                    40.748803
+                    -73.9820124,
+                    40.7491507
                 ]
             },
             "descriptions": [
@@ -3143,11 +3143,11 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q1816028",
-            "uuid": "Q1816028",
+            "@id": "Q19935974",
+            "uuid": "https://www.wikidata.org/wiki/Q19935974",
             "type": "Feature",
             "properties": {
-                "title": "National Bank of Greece",
+                "title": "National Bank of Greece Cultural Foundation",
                 "ccodes": ["GR"],
                 "country": "Greece",
                 "url": "https://www.miet.gr/"
@@ -3155,37 +3155,37 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.729028,
-                    37.981
+                    23.731138,
+                    37.973389
                 ]
             },
             "descriptions": [
                 {
-                    "value": "Global Greek banking and financial services company",
+                    "value": "Cultural foundation to support the Humanities, Fine Arts and Sciences in Greece, created by the National Bank of Greece.",
                     "source": "https://mr-mark16.sib.swiss/"
                 }
             ],
             "names": [
                 {
-                    "toponym": "National Bank of Greece",
+                    "toponym": "National Bank of Greece Cultural Foundation",
                     "lang": "en"
                 }
             ],
             "types": [
                 {
-                    "identifier": "aat:300410327",
-                    "sourceLabel": "banks (institutions)",
-                    "label": "bank"
+                    "identifier": "aat:300025985",
+                    "sourceLabel": "foundations (organizations)",
+                    "label": "foundation"
                 }
             ],
             "links": [
                 {
                     "type": "closeMatch",
-                    "identifier": "https://viaf.org/viaf/146085455/"
+                    "identifier": "http://viaf.org/viaf/137912494"
                 },
                 {
                     "type": "closeMatch",
-                    "identifier": "https://id.loc.gov/authorities/n84082847"
+                    "identifier": "https://id.loc.gov/authorities/n85003444"
                 }
             ],
             "depictions": [
@@ -3218,8 +3218,8 @@
             ]
         },
         {
-            "@id": "https://www.wikidata.org/wiki/Q131454",
-            "uuid": "Q131454",
+            "@id": "Q131454",
+            "uuid": "https://www.wikidata.org/wiki/Q131454",
             "type": "Feature",
             "properties": {
                 "title": "Library of Congress",
