@@ -12,7 +12,7 @@ build:
     - npx browserslist@latest --update-db
     - npm run build
   only:
-    - master
+    - main
   artifacts:
     paths:
       - docs/
@@ -33,5 +33,5 @@ deploy:
     # - ssh -t coreit@dataviz-mark16.vital-it.ch "rm -r /var/vhosts/sib.swiss/dataviz-mark16/htdocs/*"
     # - scp -r docs coreit@dataviz-mark16.vital-it.ch://var/vhosts/sib.swiss/dataviz-mark16/htdocs/
   only:
-    - master
+    - main
   when: manual
