@@ -30,7 +30,7 @@ deploy:
     - mkdir -p ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - ssh -t coreit@dataviz-mark16.vital-it.ch "rm -r /var/vhosts/sib.swiss/dataviz-mark16/htdocs/*"
-    - scp -r docs coreit@dataviz-mark16.vital-it.ch://var/vhosts/sib.swiss/dataviz-mark16/htdocs/
+    - scp -r docs/* coreit@dataviz-mark16.vital-it.ch://var/vhosts/sib.swiss/dataviz-mark16/htdocs
   only:
     - main
   when: manual
