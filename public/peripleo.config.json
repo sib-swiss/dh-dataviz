@@ -1,6 +1,7 @@
 {
 	"initial_bounds": [-165.021286, -15.163128, 77.029491, 64.184474],
 	"map_style": "./map-style-OSM.json",
+	"disableMyLocation": true,
 	"data": [
 	  {
 		"name": "Mark16",
@@ -12,7 +13,7 @@
 	"facets": [
 	  { "name": "language", "path": ["relations", "lang"], "dynamicCondition": [{"name": "manuscript", "path": "title"}, {"name": "location", "path": "label"}] },
 	  { "name": "manuscript", "path": ["relations", "title"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "location", "path": "label"}] },
-	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "manuscript", "path": "title"}] },
+	  { "name": "location", "path": ["relations", "label"], "dynamicCondition": [{"name": "language", "path": "lang"}, {"name": "manuscript", "path": "titl"}] },
 	  "type"
 	],
 	"link_icons": [
