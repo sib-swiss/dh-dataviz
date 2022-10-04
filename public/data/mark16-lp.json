@@ -727,6 +727,23 @@
                         ],
                         "label": "1174 CE"
                     }
+                },
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "physical",
+                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0ExMjE=",
+                    "@id": "https://doi.org/10.34847/nkl.df5a6fb5",
+                    "title": "sa 121",
+                    "content": "f.75r",
+                    "lang": "Coptic",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {"earliest": "600", "latest": "799"}
+                            }
+                        ],
+                        "label": "7e-8e century CE"
+                    }
                 }
             ]
         },
