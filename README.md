@@ -8,7 +8,7 @@ https://dataviz-mark16.sib.swiss
 This visualization shows the MARK16 manuscripts included in our [manuscript room](https://mr-mark16.sib.swiss). It allows to filter our data by language, manuscript, location and type of institution. The languages are presented in alphabetical order to highlight some lesser-known manuscripts in Arabic, Armenian, Coptic, etc. The location indicates, for example, whether the manuscript is in an institution physically, virtually (as a facsimile), or both.
 Dataviz was created with the Peripleo tool in collaboration with our partners at the [Pelagios Network](https://pelagios.org/). 
 
-*Peripleo* is a prototype application for the discovery and spatial visualisation of collection data, originally an initiative of the [Pelagios Network](https://pelagios.org/) and developed early in 2022 as part of the British Library's [**Locating a National Collection project**](https://britishlibrary.github.io/locating-a-national-collection/) (LaNC). LaNC was a Foundation project within the AHRC-funded [Towards a National Collection Programme](https://www.nationalcollection.org.uk/).
+*Peripleo* is a prototype application for the discovery and spatial visualisation of collection data, originally an initiative of the [Pelagios Network](https://pelagios.org/) and developed early in 2022 as part of the British Library's [**Locating a National Collection project**](https://britishlibrary.github.io/locating-a-national-collection/) (LaNC).
 
 
 ## LinkedPlaces Data
