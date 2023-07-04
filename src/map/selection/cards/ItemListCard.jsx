@@ -200,6 +200,7 @@ const ItemListCard = props => {
   const { referrer } = props;
 
   const config = props.nodeList[0].config;
+  const new_tab_to = config.data[0].new_tab_to;
 
   // Temporary hack!
   const color = SIGNATURE_COLOR[3]; 
@@ -264,7 +265,7 @@ const ItemListCard = props => {
         ))}
       </ul>
       <footer aria-live={true}>
-        <AiOutlineInfoCircle />Links open a new tab to MARK16 Manuscript Room
+        <AiOutlineInfoCircle />Links open a new tab to {new_tab_to}
       </footer>
     </div>
   )
