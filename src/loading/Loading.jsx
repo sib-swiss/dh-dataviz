@@ -18,13 +18,14 @@ const Loading = props => {
   // Show OK button only in loaded state, and if there's a welcome message or dataset details
   const showOkButton = stage === 'LOADED' && (welcome || props.datasetMetadata.length > 0);
 
-  useEffect(() => {
-    const welcome = config?.welcome_message;
-    if (welcome) 
-      fetch(welcome)
-        .then(response => response.text())
-        .then(setWelcome);
-  }, [ config?.welcome_message]);
+  // with the code below it will try to load the welcome message from the URL specified in the config.welcome_messae
+  // useEffect(() => {
+  //   const welcome = config?.welcome_message;
+  //   if (welcome) 
+  //     fetch(welcome)
+  //       .then(response => response.text())
+  //       .then(setWelcome);
+  // }, [ config?.welcome_message]);
 
   useEffect(() => {
     // Without welcome message or dataset details, splash screen should close automatically
