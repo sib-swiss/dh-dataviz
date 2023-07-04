@@ -8,6 +8,12 @@ const Welcome = props => {
 
   const [ checked, setChecked ] = useState(false);
 
+  const logos = props.logos;
+
+  const listLogos = logos.map(logo =>
+    <img src={logo.path} key={logo.name} />
+  );
+
   const toggleDoNotShow = () => {
     if (checked)
       localStorage.removeItem(BEEN_HERE_TOKEN);
@@ -22,15 +28,12 @@ const Welcome = props => {
       <div className="p6o-welcome">
         <h1>Welcome!</h1>
 
-        <p className="p6o-welcome-intro">
-          Welcome to the <strong>DataViz</strong> of the <a href="https://mark16.sib.swiss/">SNSF MARK16 VRE</a>!
-        </p>
-        <p>
-          You will find here a digital map that locates all the
-          manuscript data of <a href="https://mr-mark16.sib.swiss/">MARK16 Manuscript Room</a>.
-          It has been created by Elisa Nury and the MARK16 team in partnership with the <a href="https://pelagios.org/">Pelagios network</a>, and 
-          uses <a href="https://www.openstreetmap.org/">Open Street Map</a>. The code is available in <a href="https://github.com/sib-swiss/dh-dataviz">github</a> under a GPLv3 license.
-        </p>
+        {props.message.intro &&
+          <p className="p6o-welcome-intro" dangerouslySetInnerHTML={{__html: props.message.intro}}></p>
+        }
+        {props.message.intro &&
+          <p dangerouslySetInnerHTML={{__html: props.message.paragraph}}></p>
+        }
         
         <div className="p6o-welcome-buttons">
           <label>
@@ -58,10 +61,7 @@ const Welcome = props => {
         </div>
 
         <div className="p6o-welcome-logos">
-          <img src="../../../logos/Pelagios_sm.png"/>
-          <img src="../../../logos/SNSF_sm.png"/>
-          <img src="../../../logos/SIBlogo_sm.png"/>
-          <img src="../../../logos/github-mark-sm.png"/>
+          {listLogos}
         </div>
       </div>
     </div>,
