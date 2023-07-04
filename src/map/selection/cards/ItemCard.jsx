@@ -36,6 +36,8 @@ const ItemCard = props => {
 
   const { node } = props;
 
+  const type_object = props.config.data[0].type_object;
+
   useEffect(() => {
     if (el.current) {
       el.current.querySelector('header button').blur();
@@ -184,7 +186,7 @@ const ItemCard = props => {
             <div
               className="p6o-selection-related-records">
               <button onClick={goTo} >
-                <BiLink /> <span>{connectedManuscripts.length} {connectedManuscripts.length > 1 ? "Manuscripts" : "Manuscript"}</span>
+                <BiLink /> <span>{connectedManuscripts.length} {connectedManuscripts.length > 1 ? type_object[1] : type_object[0]}</span>
               </button>
             </div> :
 
