@@ -59,7 +59,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "past location",
-                    "relationTo": "https://nakala.fr/10.34847/nkl.ccc7ee9o",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/CSRPC",
                     "@id": "https://doi.org/10.34847/nkl.ccc7ee9o",
                     "content": "f.103/4r and f.103/40v",
                     "title": "CSR Pc",
@@ -79,7 +79,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwODM=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA083",
                     "@id": "https://doi.org/11280/aed3c04e",
                     "title": "GA 083",
                     "content": "page 70 and page 71",
@@ -99,7 +99,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMTky",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1192",
                     "@id": "https://doi.org/11280/8980d2164",
                     "title": "GA 1192",
                     "content": "f.128r, f.128v and f.129r ",
@@ -119,7 +119,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMjEw",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1210",
                     "@id": "https://doi.org/11280/10361034",
                     "title": "GA 1210",
                     "content": "f.104v, f.105r and f.105v",
@@ -139,7 +139,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMjMw",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1230",
                     "@id": "https://doi.org/11280/9506e5dc",
                     "title": "GA 1230",
                     "content": "f.146v, f.147r, f.147v and f.148r",
@@ -156,7 +156,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U1lT",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYS",
                     "@id": "https://doi.org/10.34847/nkl.a46c8kd3",
                     "title": "syS",
                     "content": "f.23v",
@@ -232,7 +232,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0Ex",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1",
                     "@id": "https://doi.org/11280/e795e203",
                     "title": "GA 1",
                     "content": "f.220r and f.220v",
@@ -252,7 +252,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0Ey",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA2",
                     "@id": "https://doi.org/10.34847/nkl.41643ld6",
                     "title": "GA 2",
                     "content": "f.117v, f.118r and f.118v",
@@ -272,7 +272,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExNDIw",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1420",
                     "@id": "https://doi.org/10.34847/nkl.442azp39",
                     "title": "GA 1420",
                     "content": "f. 47r and f. 47v",
@@ -356,7 +356,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0E4ODg=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA888",
                     "@id": "https://doi.org/11280/f936e1cc",
                     "title": "GA 888",
                     "content": "f. 230v, f.231r and f.231v",
@@ -440,7 +440,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=Vkwx",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/VL1",
                     "@id": "https://doi.org/11280/d49ec78a",
                     "title": "VL 1",
                     "content": "f.40r, f.40v and f.41r",
@@ -524,7 +524,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0E0NzQ=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA474",
                     "@id": "https://doi.org/10.34847/nkl.04dbyiri",
                     "title": "sa 474",
                     "content": "f.26hr and f.26hv",
@@ -544,7 +544,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRIMg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH2",
                     "@id": "https://doi.org/10.34847/nkl.540bgjjd",
                     "title": "Eth 2",
                     "content": "f.100v, f.101r, f.101v and f.102r",
@@ -564,7 +564,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwNA==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA04",
                     "@id": "https://doi.org/11280/fd73c95e",
                     "title": "GA 04",
                     "content": "f.151v and f.148r",
@@ -584,7 +584,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwMTk=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA019",
                     "@id": "https://doi.org/11280/4242f209",
                     "title": "GA 019",
                     "content": "f.112v, f.113r, f.113v and f.114r",
@@ -604,7 +604,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwOTk=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA099",
                     "@id": "https://doi.org/10.34847/nkl.d3d1coro",
                     "title": "GA 099",
                     "content": "page 161 and page 162",
@@ -624,7 +624,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EyNzQ=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA274",
                     "@id": "https://doi.org/10.34847/nkl.7fdcvw5z",
                     "title": "GA 274",
                     "content": "f.103v, f.104r and f.104v",
@@ -644,7 +644,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EzMDQ=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA304",
                     "@id": "https://doi.org/11280/0eb228ed",
                     "title": "GA 304",
                     "content": "f.240r, f.240v and f.241r",
@@ -664,7 +664,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0E1Nzk=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA579",
                     "@id": "https://doi.org/11280/aae91e3f",
                     "title": "GA 579",
                     "content": "f.69v, f.70r and f.70v",
@@ -740,7 +740,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=Qk8y",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/BO2",
                     "@id": "https://doi.org/10.34847/nkl.25fcevj8",
                     "title": "bo 2",
                     "content": "f.193v, f.194r, f.194v, f.195r, f.195v and f.196r",
@@ -757,7 +757,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0ExMjE=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA121",
                     "@id": "https://doi.org/10.34847/nkl.df5a6fb5",
                     "title": "sa 121",
                     "content": "f.75r",
@@ -834,7 +834,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=Qk8xMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/BO13",
                     "@id": "https://doi.org/10.34847/nkl.23b72o82",
                     "title": "bo 13",
                     "content": "f.212r, f.212v, f.213r, f.213v, f.214r",
@@ -851,7 +851,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRIMQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH1",
                     "@id": "https://doi.org/10.34847/nkl.f87asw9i",
                     "title": "Eth 1",
                     "content": "f.68r, f.68v and f.69r",
@@ -871,7 +871,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=R0EwMQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA01",
                     "@id": "https://doi.org/11280/97f4cc8a",
                     "title": "GA 01",
                     "content": "f. 227v and f. 228r",
@@ -891,7 +891,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwMg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA02",
                     "@id": "https://doi.org/11280/0091fbae",
                     "title": "GA 02",
                     "content": "f.42r and f.42v",
@@ -911,7 +911,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U1lD",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYC",
                     "@id": "https://doi.org/10.34847/nkl.2dfa3k8i",
                     "title": "syC",
                     "content": "f.39r",
@@ -926,6 +926,26 @@
                             }
                         ],
                         "label": "5th century CE"
+                    }
+                },
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "physical and virtual",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYP1",
+                    "@id": "https://doi.org/10.34847/nkl.e8aea27b",
+                    "title": "syP1",
+                    "content": "f.71v, f.72r and f.72v",
+                    "lang": "Syriac (Classical)",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {
+                                    "earliest": "700",
+                                    "latest": "799"
+                                }
+                            }
+                        ],
+                        "label": "8th century CE"
                     }
                 }
             ]
@@ -987,7 +1007,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwNQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA05",
                     "@id": "https://doi.org/10.34847/nkl.5508o345",
                     "title": "GA 05",
                     "content": "f.346v, f.347r, f.347v, f.348r and f.348v",
@@ -1067,7 +1087,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U1lINg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYH6",
                     "@id": "https://doi.org/10.34847/nkl.b93c5jf3",
                     "title": "syH6",
                     "content": "f.98r and f.98v",
@@ -1143,7 +1163,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=QVJNMjUy",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARM252",
                     "@id": "https://doi.org/10.34847/nkl.69c54gki",
                     "title": "arm 252",
                     "content": "f.120v and f.121r",
@@ -1160,7 +1180,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EyNjA0",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA2604",
                     "@id": "https://doi.org/10.34847/nkl.cfac1n0c",
                     "title": "GA 2604",
                     "content": "f.176v, f.177r, f.177v and f.178r",
@@ -1180,7 +1200,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U1lINQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYH5",
                     "@id": "https://doi.org/10.34847/nkl.f3f87nzv",
                     "title": "syH5",
                     "content": "f.113v, f.114r and f.114v",
@@ -1253,7 +1273,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0EzNjY=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA366",
                     "@id": "https://doi.org/10.34847/nkl.602289z8",
                     "title": "sa 366",
                     "content": "f.814r and f.814v (top fragment)",
@@ -1326,7 +1346,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwMzI=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA032",
                     "@id": "https://doi.org/10.34847/nkl.4ffaz7d0",
                     "title": "GA 032",
                     "content": "page 369, page 370, page 371 and page 372",
@@ -1398,7 +1418,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=QVJCMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARB3",
                     "@id": "https://doi.org/10.34847/nkl.ba7e19yf",
                     "title": "arb 3",
                     "content": "page 115 and page 116",
@@ -1415,7 +1435,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=VkwxNg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/VL16",
                     "@id": "https://doi.org/10.34847/nkl.0a12ue14",
                     "title": "VL 16",
                     "content": "p.87, p.88 and p.91",
@@ -1488,7 +1508,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRIMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH3",
                     "@id": "https://doi.org/10.34847/nkl.daba634n",
                     "title": "Eth 3",
                     "content": "f. 179r, f. 179v, f. 180r and f. 180v",
@@ -1508,7 +1528,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRINA==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH4",
                     "@id": "https://nakala.fr/10.34847/nkl.afbci193",
                     "title": "Eth 4",
                     "content": "f.168v, f.169r, f.169v and f. 170r",
@@ -1523,6 +1543,26 @@
                             }
                         ],
                         "label": "1339-1350 CE"
+                    }
+                },
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "virtual",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYH7",
+                    "@id": "https://nakala.fr/10.34847/nkl.8ac3myzv",
+                    "title": "syH7",
+                    "content": "f.87r, f.87v, f.88r and f.88v",
+                    "lang": "Syriac (Classical)",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {
+                                    "earliest": "1200",
+                                    "latest": "1299"
+                                }
+                            }
+                        ],
+                        "label": "13th century CE"
                     }
                 }
             ]
@@ -1584,7 +1624,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRINA==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH4",
                     "@id": "https://nakala.fr/10.34847/nkl.afbci193",
                     "title": "Eth 4",
                     "content": "f.168v, f.169r, f.169v and f. 170r",
@@ -1660,7 +1700,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RVRIMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ETH3",
                     "@id": "https://doi.org/10.34847/nkl.daba634n",
                     "title": "Eth 3",
                     "content": "f. 179r, f. 179v, f. 180r and f. 180v",
@@ -1740,7 +1780,7 @@
                 {
                     "relationType": "wd:P1830",
                     "label": "ownership",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R09UMQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GOT1",
                     "@id": "https://nakala.fr/10.34847/nkl.3068hb8i",
                     "content": "f.188v",
                     "title": "Got 1",
@@ -1820,7 +1860,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R09UMQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GOT1",
                     "@id": "https://nakala.fr/10.34847/nkl.3068hb8i",
                     "content": "f.188v",
                     "title": "Got 1",
@@ -1896,7 +1936,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R09UMQ==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GOT1",
                     "@id": "https://nakala.fr/10.34847/nkl.3068hb8i",
                     "content": "f.187r, f.187v, f.188r",
                     "title": "Got 1",
@@ -1976,7 +2016,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=QVJCMg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARB2",
                     "@id": "https://doi.org/11280/684978f3",
                     "content": "f.74v",
                     "title": "arb 2",
@@ -1996,7 +2036,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA03",
                     "@id": "https://doi.org/11280/1d77ee0b",
                     "content": "page 1303",
                     "title": "GA 03",
@@ -2016,7 +2056,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U1lINA==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SYH4",
                     "@id": "https://doi.org/10.34847/nkl.0eedelvl",
                     "content": "f.80r and f.80v",
                     "title": "syH4",
@@ -2089,7 +2129,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExNDIy",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1422",
                     "@id": "https://doi.org/10.34847/nkl.eecb9te7",
                     "content": "f.177v, f.178r, f.178v, f.179r and f.179v",
                     "title": "GA 1422",
@@ -2169,7 +2209,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "https://nakala.fr/10.34847/nkl.ccc7ee9o",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/CSRPC",
                     "@id": "https://doi.org/10.34847/nkl.ccc7ee9o",
                     "content": "f.103/4r and f.103/40v",
                     "title": "CSR Pc",
@@ -2189,7 +2229,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=RkEzMg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/FA32",
                     "@id": "https://doi.org/10.34847/nkl.5fac11f0",
                     "content": "f.4r, f.4v and f.5r",
                     "title": "fa 32",
@@ -2209,7 +2249,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0xBVjE=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SLAV1",
                     "@id": "https://doi.org/10.34847/nkl.cc57xr94",
                     "content": "f.128r and f.128v",
                     "title": "Slav 1",
@@ -2285,7 +2325,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0E4MDA=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA800",
                     "@id": "https://doi.org/10.34847/nkl.cb56206p",
                     "content": "f.104v, f.105r and f.105v",
                     "title": "GA 800",
@@ -2365,7 +2405,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=Vkwz",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/VL3",
                     "@id": "https://doi.org/10.34847/nkl.56c08668",
                     "content": "f.633 and f.634",
                     "title": "VL 3",
@@ -2445,7 +2485,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=QVJCMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARB3",
                     "@id": "https://doi.org/10.34847/nkl.ba7e19yf",
                     "title": "arb 3",
                     "content": "page 115 and page 116",
@@ -2462,7 +2502,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=VkwxNg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/VL16",
                     "@id": "https://doi.org/10.34847/nkl.0a12ue14",
                     "content": "p.87, p.88 and p.91",
                     "title": "VL 16",
@@ -2546,7 +2586,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwNDQ=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA044",
                     "@id": "https://nakala.fr/10.34847/nkl.3068hb8i",
                     "content": "f.14r, f.14v and f.15r",
                     "title": "GA 044",
@@ -2622,7 +2662,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=QVJNNzI0",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARM724",
                     "@id": "https://doi.org/10.34847/nkl.895ag279",
                     "content": "f.110r, f.110v, f.111r and f.111v",
                     "title": "arm 724",
@@ -2639,7 +2679,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=QVJNNzk4",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/ARM798",
                     "@id": "https://doi.org/10.34847/nkl.c3c8e0bp",
                     "content": "f.128r, f.128v, f.129r and f.129v",
                     "title": "arm 798",
@@ -2716,7 +2756,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwMzM=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA033",
                     "@id": "https://doi.org/10.34847/nkl.e1e1j658",
                     "content": "f.109v",
                     "title": "GA 033",
@@ -2796,7 +2836,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0ExNEw=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA14L",
                     "@id": "https://doi.org/10.34847/nkl.3410m8px",
                     "content": "f.4r, f.4v, f.5r and f.5v",
                     "title": "sa 14L",
@@ -2816,7 +2856,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=TDE2MDI=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/L1602",
                     "@id": "https://doi.org/11280/99d3b2ea",
                     "content": "f.2r, f.2v, f.3r, f.3v and f.4r",
                     "title": "L1602",
@@ -2892,7 +2932,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0VPMw==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GEO3",
                     "@id": "https://doi.org/10.34847/nkl.3ba82t98",
                     "content": "f.112v and f.113r",
                     "title": "geo 3",
@@ -2969,7 +3009,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0EzOTNWQVI=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA393VAR",
                     "@id": "https://doi.org/11280/76f6a40d",
                     "content": "",
                     "title": "sa 393var",
@@ -3045,7 +3085,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0VPMg==",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GEO2",
                     "@id": "https://doi.org/10.34847/nkl.aea2yhd5",
                     "content": "f.269r, f.269v and f.270r",
                     "title": "geo 2",
@@ -3118,7 +3158,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=R0EyOTM3",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA2937",
                     "@id": "https://doi.org/11280/e55e51a5",
                     "content": "f.93r, f.93v and f.94r",
                     "title": "GA 2937",
@@ -3194,7 +3234,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=U0E5",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA9",
                     "@id": "https://doi.org/10.34847/nkl.6f83096n",
                     "content": "f.59v and f.60r",
                     "title": "sa 9",
@@ -3214,7 +3254,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "physical and virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EyMzg2",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA2386",
                     "@id": "https://doi.org/10.34847/nkl.77c36ef8",
                     "content": "f.92v",
                     "title": "GA 2386",
@@ -3290,7 +3330,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "https://mr-mark16.sib.swiss/show?id=R0EyOTM3",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA2937",
                     "@id": "https://doi.org/11280/e55e51a5",
                     "content": "f.93r, f.93v and f.94r",
                     "title": "GA 2937",
@@ -3366,7 +3406,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0EwNDQ=",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA044",
                     "@id": "https://nakala.fr/10.34847/nkl.3068hb8i",
                     "content": "f.14r, f.14v and f.15r",
                     "title": "GA 044",
@@ -3386,7 +3426,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMTky",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1192",
                     "@id": "https://doi.org/11280/8980d2164",
                     "title": "GA 1192",
                     "content": "f.128r, f.128v and f.129r ",
@@ -3406,7 +3446,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMjEw",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1210",
                     "@id": "https://doi.org/11280/10361034",
                     "title": "GA 1210",
                     "content": "f.104v, f.105r and f.105v",
@@ -3426,7 +3466,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "virtual",
-                    "relationTo": "http://mr-mark16.sib.swiss/show?id=R0ExMjMw",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/GA1230",
                     "@id": "https://doi.org/11280/9506e5dc",
                     "title": "GA 1230",
                     "content": "f.146v, f.147r, f.147v and f.148r",
@@ -3505,7 +3545,7 @@
                 {
                     "relationType": "gvp:aat2208_locus-setting_for",
                     "label": "past location",
-                    "relationTo": "https://nakala.fr/10.34847/nkl.ccc7ee9o",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/CSRPC",
                     "@id": "https://doi.org/10.34847/nkl.ccc7ee9o",
                     "content": "f.103/4r and f.103/40v",
                     "title": "CSR Pc",
@@ -3520,6 +3560,86 @@
                             }
                         ],
                         "label": "5th-8th century CE"
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "Q304037",
+            "uuid": "https://www.wikidata.org/wiki/Q304037",
+            "type": "Feature",
+            "properties": {
+                "title": "Austrian National Library",
+                "ccodes": ["AT"],
+                "country": "Austria",
+                "url": "https://www.onb.ac.at/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.366267,
+                    48.206142
+                ]
+            },
+            "descriptions": [
+                {
+                    "value": "Largest library in Austria.",
+                    "source": "https://mr-mark16.sib.swiss/"
+                }
+            ],
+            "names": [
+                {
+                    "toponym": "Austrian National Libraryn",
+                    "lang": "en",
+                    "citations": [{"year": "2022"}]
+                },
+                {
+                    "toponym": "Österreichische Nationalbibliothek",
+                    "lang": "de"
+                }
+            ],
+            "types": [
+                {
+                    "identifier": "aat:300343387",
+                    "sourceLabel": "national libraries (institutions)",
+                    "label": "library"
+                }
+            ],
+            "links": [
+                {
+                    "type": "closeMatch",
+                    "identifier": "http://viaf.org/viaf/136765452"
+                },
+                {
+                    "type": "closeMatch",
+                    "identifier": "https://id.loc.gov/authorities/n79068404"
+                }
+            ],
+            "depictions": [
+                {
+                    "@id": "./data/logos/partners/onb-logo.png",
+                    "title": "Austrian National Library"
+                }
+            ],
+            "relations": [
+                {
+                    "relationType": "gvp:aat2208_locus-setting_for",
+                    "label": "physical and virtual",
+                    "relationTo": "https://mr-mark16.sib.swiss/manuscript/SA102",
+                    "@id": "https://doi.org/10.34847/nkl.a933hzy6",
+                    "content": "page 196 and page 197",
+                    "title": "sa 102",
+                    "lang": "Coptic",
+                    "when": {
+                        "timespans": [
+                            {
+                                "start": {
+                                    "earliest": "500",
+                                    "latest": "899"
+                                }
+                            }
+                        ],
+                        "label": "6th-9th CE"
                     }
                 }
             ]
