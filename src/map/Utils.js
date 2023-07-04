@@ -27,7 +27,16 @@ export const collapseColocatedFeatures = (features, precision = 5) => {
         }
       }
     } else {
-      grouped[key] = f;
+
+      const count = f.relations.length;
+
+      grouped[key] = {
+        ...f,
+        properties: {
+          ...f.properties,
+          colocated_relations: count
+        }
+      }
     }
   });
 
