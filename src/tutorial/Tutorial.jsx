@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Joyride, { ACTIONS, EVENTS, STATUS } from 'react-joyride';
 import { useSetRecoilState } from 'recoil';
 
-import tour from './tour';
+//import tour from './tour';
 import Welcome from './Welcome';
 import useSearch from '../state/search/useSearch';
 import { mapModeState, hudOpenState } from '../state';
@@ -77,7 +77,9 @@ const Tutorial = props => {
       {showWelcome && 
         <Welcome
           onNoThanks={() => setShowWelcome(false)} 
-          onTakeTour={onStartTour} />
+          onTakeTour={onStartTour} 
+          logos={props.logos}
+          message={props.message} />
       }
 
       {showTour &&
@@ -88,7 +90,11 @@ const Tutorial = props => {
           disableScrollParentFix
           disableScrolling
           run={isRunning}
-          steps={tour}
+          steps={props.tutorial.map(step => ({
+            ...step,
+            content: <div dangerouslySetInnerHTML={{ __html: step.content }} />,
+          }))}
+
           stepIndex={currentStep}
           callback={onTourCallback}/>
       }
