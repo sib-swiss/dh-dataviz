@@ -4,10 +4,12 @@
 	"disableMyLocation": true,
 	"data": [
 	  {
-		"name": "Mark16",
+		"name": "MARK16",
 		"format": "LINKED_PLACES",
+		"type_object": ["Manuscript", "Manuscripts"],
 		"src": "./data/mark16-lp.json",
-		"attribution": "MARK16 Dataviz © <a href=\"https://mark16.sib.swiss/\" target=\"_blank\"><i>MARK16</i> Partners & Contributors</a>"
+		"attribution": "MARK16 Dataviz © <a href=\"https://mark16.sib.swiss/\" target=\"_blank\"><i>MARK16</i> Partners & Contributors</a>",
+		"new_tab_to": "MARK16 Manuscript Room"
 	  }
 	],
 	"facets": [
@@ -23,6 +25,52 @@
 	  { "pattern": "www.wikidata.org", "img": null, "label": "Wikidata" },
 	  { "pattern": "www.geonames.org", "img": null, "label": "GeoNames" },
 	  { "pattern": "sws.geonames.org", "img": null, "label": "GeoNames" }
+	],
+	"welcome_logos": [
+		{"name":"logo1", "path": "./logos/Pelagios_sm.png"},
+		{"name":"logo2", "path": "./logos/SNSF_sm.png"},
+		{"name":"logo3", "path": "./logos/SIBlogo_sm.png"},
+		{"name":"logo4", "path": "./logos/github-mark-sm.png"}
+	],
+	"welcome_message": {
+		"intro": "Welcome to the <strong>DataViz</strong> of the <a href=\"https://mark16.sib.swiss/\">SNSF MARK16 VRE</a>!",
+		"paragraph": "You will find here a digital map that locates all the manuscript data of <a href=\"https://mr-mark16.sib.swiss/\">MARK16 Manuscript Room</a>. It has been created by Elisa Nury and the MARK16 team in partnership with the <a href=\"https://pelagios.org/\">Pelagios network</a>, and uses <a href=\"https://www.openstreetmap.org/\">Open Street Map</a>. The code is available in <a href=\"https://github.com/sib-swiss/dh-dataviz\">github</a> under a GPLv3 license."
+    },
+	"tutorial": [
+		{
+			"target": ".p6o-search-button",
+			"title": "Your journey starts here",
+			"content": "Click the spyglass button to enter a text search of the loaded map data.",
+			"disableBeacon": true
+		},
+		{
+			"target": ".p6o-filters-button",
+			"content": "Or click the filter button below to open the filter panel.",
+			"disableBeacon": true
+		},
+		{
+			"target": ".p6o-facets",
+			"title": "The Filter Panel",
+			"content": "With the filter panel open, the map shows different types of data in different colors.",
+			"disableBeacon": true
+		},
+		{
+			"target": ".p6o-facets-carousel",
+			"content": "You can cycle through the available filter categories by clicking the arrows.",
+			"disableBeacon": true
+		},
+		{
+			"target": ".p6o-facets ul",
+			"content": "<div>You can filter the data on the map by clicking the labels.<p>If you select a language, you will see in the next filter all the manuscripts in this particular language.</p></div>",
+			"disableBeacon": true
+		},
+		{
+			"target": "body",
+			"placement": "center",
+			"title": "That's it!",
+			"content": "<span>Thanks for taking the time. Have fun exploring our data visualisation for MARK16. If you want to know more about the Peripleo software, <a href=\"https://github.com/britishlibrary/peripleo-lanc\" \"target\"=\"_blank\">click here</a>. </span>"
+		}
 	]
+
   }
   
