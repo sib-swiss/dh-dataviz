@@ -4,7 +4,7 @@ export const pointStyle = args => ({
     'circle-radius': [
       'interpolate', 
       ['linear'],
-      ['number', ['get','colocated_records'], 0 ],
+      ['number', ['get','colocated_records'], ['get', 'colocated_relations'] ],
       0, 5,
       30, 24
     ],
@@ -20,7 +20,7 @@ export const pointCategoryStyle = args => ({
     'circle-radius': [
       'interpolate', 
       ['linear'],
-      ['number', ['get','colocated_records'], 0 ],
+      ['number', ['get','colocated_records'], ['get', 'colocated_relations'] ],
       0, 5,
       30, 24
     ],
