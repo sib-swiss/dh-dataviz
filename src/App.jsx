@@ -128,7 +128,10 @@ const App = () => {
       }
 
       {isFirstTimeVisitor && loadState.stage === 'CLOSE' && device === 'DESKTOP' &&
-        <Tutorial />
+        <Tutorial 
+        logos={config.welcome_logos}
+        message={config.welcome_message}
+        tutorial={config.tutorial} />
       }
     </>
   )
